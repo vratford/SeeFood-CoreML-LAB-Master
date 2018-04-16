@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		AD083EFE1F8F6DDD00946652 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
-		AD53290E1F02816300ACFF54 /* SeeFood-CoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeeFood-CoreML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD53290E1F02816300ACFF54 /* hotdog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hotdog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5329111F02816300ACFF54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD5329131F02816300ACFF54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD5329161F02816300ACFF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		AD5329051F02816300ACFF54 = {
 			isa = PBXGroup;
 			children = (
-				AD5329101F02816300ACFF54 /* SeeFood-CoreML */,
+				AD5329101F02816300ACFF54 /* hotdog */,
 				AD53290F1F02816300ACFF54 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		AD53290F1F02816300ACFF54 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD53290E1F02816300ACFF54 /* SeeFood-CoreML.app */,
+				AD53290E1F02816300ACFF54 /* hotdog.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AD5329101F02816300ACFF54 /* SeeFood-CoreML */ = {
+		AD5329101F02816300ACFF54 /* hotdog */ = {
 			isa = PBXGroup;
 			children = (
 				AD5329111F02816300ACFF54 /* AppDelegate.swift */,
@@ -62,7 +62,7 @@
 				AD53291D1F02816300ACFF54 /* Info.plist */,
 				AD5329231F02833400ACFF54 /* Resources */,
 			);
-			path = "SeeFood-CoreML";
+			path = hotdog;
 			sourceTree = "<group>";
 		};
 		AD5329231F02833400ACFF54 /* Resources */ = {
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AD53290D1F02816300ACFF54 /* SeeFood-CoreML */ = {
+		AD53290D1F02816300ACFF54 /* hotdog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD5329201F02816300ACFF54 /* Build configuration list for PBXNativeTarget "SeeFood-CoreML" */;
+			buildConfigurationList = AD5329201F02816300ACFF54 /* Build configuration list for PBXNativeTarget "hotdog" */;
 			buildPhases = (
 				AD53290A1F02816300ACFF54 /* Sources */,
 				AD53290B1F02816300ACFF54 /* Frameworks */,
@@ -90,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = "SeeFood-CoreML";
+			name = hotdog;
 			productName = "SeeFood-CoreML";
-			productReference = AD53290E1F02816300ACFF54 /* SeeFood-CoreML.app */;
+			productReference = AD53290E1F02816300ACFF54 /* hotdog.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AD5329091F02816300ACFF54 /* Build configuration list for PBXProject "SeeFood-CoreML" */;
+			buildConfigurationList = AD5329091F02816300ACFF54 /* Build configuration list for PBXProject "hotdog" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD53290D1F02816300ACFF54 /* SeeFood-CoreML */,
+				AD53290D1F02816300ACFF54 /* hotdog */,
 			);
 		};
 /* End PBXProject section */
@@ -290,9 +290,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GNT3ASGKTD;
-				INFOPLIST_FILE = "SeeFood-CoreML/Info.plist";
+				INFOPLIST_FILE = hotdog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.SeeFood-CoreML";
+				PRODUCT_BUNDLE_IDENTIFIER = hotdog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,9 +304,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GNT3ASGKTD;
-				INFOPLIST_FILE = "SeeFood-CoreML/Info.plist";
+				INFOPLIST_FILE = hotdog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.SeeFood-CoreML";
+				PRODUCT_BUNDLE_IDENTIFIER = hotdog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,7 +316,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD5329091F02816300ACFF54 /* Build configuration list for PBXProject "SeeFood-CoreML" */ = {
+		AD5329091F02816300ACFF54 /* Build configuration list for PBXProject "hotdog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD53291E1F02816300ACFF54 /* Debug */,
@@ -325,7 +325,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD5329201F02816300ACFF54 /* Build configuration list for PBXNativeTarget "SeeFood-CoreML" */ = {
+		AD5329201F02816300ACFF54 /* Build configuration list for PBXNativeTarget "hotdog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD5329211F02816300ACFF54 /* Debug */,
